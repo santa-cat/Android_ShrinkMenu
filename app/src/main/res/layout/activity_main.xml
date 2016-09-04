@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.santa.shrinkmenu.MainActivity">
+
+    <com.example.santa.shrinkmenu.ShrinkLayout
+        android:id="@+id/shrinkLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<ListView-->
+            <!--android:id="@+id/listview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Shrinkable Menu."
+            android:textSize="46sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        </com.example.santa.shrinkmenu.ShrinkLayout>
+
+    <!--<com.example.santa.shrinkmenu.MenuItem-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+</LinearLayout>
